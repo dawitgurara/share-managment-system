@@ -1,0 +1,1219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{882BB5A8-6459-4F84-8A29-0C78557C61B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SHM</RootNamespace>
+    <AssemblyName>SHM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>ICMC_ICON_F.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.Data.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.Utils.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.XtraBars.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.XtraEditors.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.XtraGrid.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.XtraNavBar.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.XtraPrinting.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichTextEdit.v7.2, Version=7.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\DevExpress.XtraRichTextEdit.v7.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="NETXP.Controls.Docking, Version=3.0.5600.2205, Culture=neutral, PublicKeyToken=8c338532f03bf201">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\NETXP.Controls.Docking.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NETXP.Controls.TaskPane, Version=3.0.5600.2205, Culture=neutral, PublicKeyToken=8c338532f03bf201">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\NETXP.Controls.TaskPane.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NETXP.Library, Version=3.0.5600.2205, Culture=neutral, PublicKeyToken=8c338532f03bf201">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\NETXP.Library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NETXP.Win32, Version=3.0.5600.2205, Culture=neutral, PublicKeyToken=8c338532f03bf201">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\EligMaster\NETXP.Win32.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Services">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Services.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Log">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Printing">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01 File\frmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01 File\frmFiscalYears.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmFiscalYears.Designer.cs">
+      <DependentUpon>frmFiscalYears.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01 File\frmPeriods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmPeriods.Designer.cs">
+      <DependentUpon>frmPeriods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02 Setup\frmNameValueParameterSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02 Setup\frmNameValueParameterSetup.designer.cs">
+      <DependentUpon>frmNameValueParameterSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02 Setup\frmOtherParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02 Setup\frmOtherParameter.designer.cs">
+      <DependentUpon>frmOtherParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmShareSubscribing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmShareSubscribing.Designer.cs">
+      <DependentUpon>frmShareSubscribing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmMeetingAttendee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmMeetingAttendee.designer.cs">
+      <DependentUpon>frmMeetingAttendee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmAuditLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmAuditLog.Designer.cs">
+      <DependentUpon>frmAuditLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmCalendarConvertor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmCalendarConvertor.designer.cs">
+      <DependentUpon>frmCalendarConvertor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmOtherParameterSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmOtherParameterSetup.designer.cs">
+      <DependentUpon>frmOtherParameterSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmReportSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmReportSetup.Designer.cs">
+      <DependentUpon>frmReportSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06 Report\PaymentHistoryReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentHistoryReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06 Report\VotingCardBoth.cs">
+      <DependentUpon>VotingCardBoth.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="06 Report\VotingCard.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VotingCard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06 Report\VotingCard_Em.cs">
+      <DependentUpon>VotingCard_Em.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="06 Report\ShareholderAttendanceListGeneralEmergency.cs">
+      <DependentUpon>ShareholderAttendanceListGeneralEmergency.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="06 Report\DividendAnnoucmentForm2.cs">
+      <DependentUpon>DividendAnnoucmentForm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\DividendAnnoucmentFormbulckPrint12.cs">
+      <DependentUpon>DividendAnnoucmentFormbulckPrint1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\DividendAnnoucmentFormbulckPrint3.cs">
+      <DependentUpon>DividendAnnoucmentFormbulckPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\DividendEarnedByShareholder2.cs">
+      <DependentUpon>DividendEarnedByShareholder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\DividendMasterReport2.cs">
+      <DependentUpon>DividendMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\DividendMasterReportCheckList2.cs">
+      <DependentUpon>DividendMasterReportCheckList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\DividendPaidtoShareholder2.cs">
+      <DependentUpon>DividendPaidtoShareholder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfAttendeeAmharic2.cs">
+      <DependentUpon>PercentageOfAttendeeAmharic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfEmrgMtngAttendeeAmharic2.cs">
+      <DependentUpon>PercentageOfEmrgMtngAttendeeAmharic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfMeetingAttendee2.cs">
+      <DependentUpon>PercentageOfMeetingAttendee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfVotedAttendee2.cs">
+      <DependentUpon>PercentageOfVotedAttendee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfVotedAttendeeAmharic2.cs">
+      <DependentUpon>PercentageOfVotedAttendeeAmharic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfVotedAttendeeForNomineeAmharic2.cs">
+      <DependentUpon>PercentageOfVotedAttendeeForNomineeAmharic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareholderAttendanceList2.cs">
+      <DependentUpon>ShareholderAttendanceList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareholderAttendanceListBoth2.cs">
+      <DependentUpon>ShareholderAttendanceListBoth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareholderAttendanceListMergency2.cs">
+      <DependentUpon>ShareholderAttendanceListMergency.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareholderDetails2.cs">
+      <DependentUpon>ShareholderDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\shareholdersDetailAmharic2.cs">
+      <DependentUpon>shareholdersDetailAmharic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareholdersWhoseDividendNotPaid2.cs">
+      <DependentUpon>ShareholdersWhoseDividendNotPaid.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareholdersWhoseOutstandingNonZero2.cs">
+      <DependentUpon>ShareholdersWhoseOutstandingNonZero.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareoldersOutstandingShare2.cs">
+      <DependentUpon>ShareoldersOutstandingShare.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\ShareTransferReport2.cs">
+      <DependentUpon>ShareTransferReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\UnpaidDividendbyShareholder2.cs">
+      <DependentUpon>UnpaidDividendbyShareholder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="06 Report\VotingCardForElectionCommitteeNominee2.cs">
+      <DependentUpon>VotingCardForElectionCommitteeNominee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="08 SHM Classes\clApplication.cs" />
+    <Compile Include="08 SHM Classes\clCompany.cs" />
+    <Compile Include="08 SHM Classes\clConvertCalendar.cs" />
+    <Compile Include="08 SHM Classes\clDatabase.cs" />
+    <Compile Include="08 SHM Classes\clDatacon.cs" />
+    <Compile Include="08 SHM Classes\clDataUtility.cs" />
+    <Compile Include="08 SHM Classes\clEthiopianCalendar.cs" />
+    <Compile Include="08 SHM Classes\clMain.cs" />
+    <Compile Include="08 SHM Classes\clOtherParameter.cs" />
+    <Compile Include="08 SHM Classes\clReminder.cs" />
+    <Compile Include="08 SHM Classes\clReport.cs" />
+    <Compile Include="08 SHM Classes\clReportConfig.cs" />
+    <Compile Include="08 SHM Classes\clSecurity.cs" />
+    <Compile Include="08 SHM Classes\clSubReportConfig.cs" />
+    <Compile Include="08 SHM Classes\clUser.cs" />
+    <Compile Include="08 SHM Classes\clUtility.cs" />
+    <Compile Include="08 SHM Classes\clYearPeriod.cs" />
+    <Compile Include="10 Security\frmRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10 Security\frmRole.Designer.cs">
+      <DependentUpon>frmRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="10 Security\frmUserAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10 Security\frmUserAdmin.Designer.cs">
+      <DependentUpon>frmUserAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11 Report Setup\frmReportParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11 Report Setup\frmReportParameter.Designer.cs">
+      <DependentUpon>frmReportParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11 Report Setup\frmReportPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11 Report Setup\frmReportPreview.Designer.cs">
+      <DependentUpon>frmReportPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11 Report Setup\frmReportSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11 Report Setup\frmReportSelection.Designer.cs">
+      <DependentUpon>frmReportSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="08 SHM Classes\clShareholder.cs" />
+    <Compile Include="02 Setup\frmDividendParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02 Setup\frmDividendParameters.Designer.cs">
+      <DependentUpon>frmDividendParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02 Setup\frmGeneralParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02 Setup\frmGeneralParameters.Designer.cs">
+      <DependentUpon>frmGeneralParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateCurrentTotalShare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateCurrentTotalShare.Designer.cs">
+      <DependentUpon>frmCalculateCurrentTotalShare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateTotalVotPerAgendaofAsession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateTotalVotPerAgendaofAsession.Designer.cs">
+      <DependentUpon>frmCalculateTotalVotPerAgendaofAsession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmCloseSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmCloseSession.Designer.cs">
+      <DependentUpon>frmCloseSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmAttendeesLiveFollowup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmAttendeesLiveFollowup.Designer.cs">
+      <DependentUpon>frmAttendeesLiveFollowup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01 File\frmApplications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmApplications.Designer.cs">
+      <DependentUpon>frmApplications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01 File\frmDefaults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmDefaults.Designer.cs">
+      <DependentUpon>frmDefaults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01 File\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="13 Dividend\frmDividendCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13 Dividend\frmDividendCalculation.Designer.cs">
+      <DependentUpon>frmDividendCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelSubscribedShareTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelSubscribedShareTransaction.Designer.cs">
+      <DependentUpon>frmCancelSubscribedShareTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelSharePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelSharePayment.Designer.cs">
+      <DependentUpon>frmCancelSharePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelShareTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelShareTransfer.Designer.cs">
+      <DependentUpon>frmCancelShareTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="13 Dividend\frmCancelPaidDividend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13 Dividend\frmCancelPaidDividend.Designer.cs">
+      <DependentUpon>frmCancelPaidDividend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmTerminateShareholder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmTerminateShareholder.Designer.cs">
+      <DependentUpon>frmTerminateShareholder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmElectionComitteeNominee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmElectionComitteeNominee.Designer.cs">
+      <DependentUpon>frmElectionComitteeNominee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmElectionNomineesLiveFollowup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmElectionNomineesLiveFollowup.Designer.cs">
+      <DependentUpon>frmElectionNomineesLiveFollowup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmEmergencyMeetingAttendeesLiveFollowup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmEmergencyMeetingAttendeesLiveFollowup.Designer.cs">
+      <DependentUpon>frmEmergencyMeetingAttendeesLiveFollowup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateTotalVotPerNomineeofAsession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateTotalVotPerNomineeofAsession.Designer.cs">
+      <DependentUpon>frmCalculateTotalVotPerNomineeofAsession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmEmergencyMeetingAttendee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmEmergencyMeetingAttendee.Designer.cs">
+      <DependentUpon>frmEmergencyMeetingAttendee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="13 Dividend\frmDividendPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13 Dividend\frmDividendPayable.Designer.cs">
+      <DependentUpon>frmDividendPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCashPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCashPayable.Designer.cs">
+      <DependentUpon>frmCashPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="13 Dividend\frmCancelPayDividendPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13 Dividend\frmCancelPayDividendPayable.Designer.cs">
+      <DependentUpon>frmCancelPayDividendPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelPaidCashPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmCancelPaidCashPayable.Designer.cs">
+      <DependentUpon>frmCancelPaidCashPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmBoardofDirectorsNominee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmBoardofDirectorsNominee.Designer.cs">
+      <DependentUpon>frmBoardofDirectorsNominee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateTotalVotPerBoDsNomineeofAsession..cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmCalculateTotalVotPerBoDsNomineeofAsession..Designer.cs">
+      <DependentUpon>frmCalculateTotalVotPerBoDsNomineeofAsession..cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmBoDsVotingFollowup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmBoDsVotingFollowup.Designer.cs">
+      <DependentUpon>frmBoDsVotingFollowup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMarqueeProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarqueeProgress.designer.cs">
+      <DependentUpon>frmMarqueeProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDI.Designer.cs">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmMeetingSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmMeetingSession.Designer.cs">
+      <DependentUpon>frmMeetingSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmMeetingAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmMeetingAgenda.Designer.cs">
+      <DependentUpon>frmMeetingAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmReminderPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmReminderPreview.designer.cs">
+      <DependentUpon>frmReminderPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmReminderSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmReminderSelection.designer.cs">
+      <DependentUpon>frmReminderSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05 Utility\frmReminderSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05 Utility\frmReminderSetup.designer.cs">
+      <DependentUpon>frmReminderSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmShareholderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmShareholderDetails.Designer.cs">
+      <DependentUpon>frmShareholderDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmSharePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmSharePayment.Designer.cs">
+      <DependentUpon>frmSharePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmShareTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmShareTransfer.Designer.cs">
+      <DependentUpon>frmShareTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmVotingForNominiOtherOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmVotingForNominiOtherOption.Designer.cs">
+      <DependentUpon>frmVotingForNominiOtherOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="09 Enquiries\frmVotingEnquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09 Enquiries\frmVotingEnquiry.Designer.cs">
+      <DependentUpon>frmVotingEnquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmVotingForAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmVotingForAgenda.Designer.cs">
+      <DependentUpon>frmVotingForAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01 File\frmYearEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01 File\frmYearEnd.Designer.cs">
+      <DependentUpon>frmYearEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="13 Dividend\frmPayDividend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13 Dividend\frmPayDividend.Designer.cs">
+      <DependentUpon>frmPayDividend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="09 Enquiries\frmTotalShareEnquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09 Enquiries\frmTotalShareEnquiry.Designer.cs">
+      <DependentUpon>frmTotalShareEnquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmVotForElectionCommitteNominees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmVotForElectionCommitteNominees.Designer.cs">
+      <DependentUpon>frmVotForElectionCommitteNominees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmPayCashPayable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03 Share Transaction\frmPayCashPayable.Designer.cs">
+      <DependentUpon>frmPayCashPayable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04 Votting\frmVotforBoDNominee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04 Votting\frmVotforBoDNominee.Designer.cs">
+      <DependentUpon>frmVotforBoDNominee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06 Report\PercentageOfVotedAttendeeForBoDsNomineeAmharic.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PercentageOfVotedAttendeeForBoDsNomineeAmharic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="01 File\frmCompany.resx">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01 File\frmFiscalYears.resx">
+      <DependentUpon>frmFiscalYears.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01 File\frmPeriods.resx">
+      <DependentUpon>frmPeriods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02 Setup\frmNameValueParameterSetup.resx">
+      <DependentUpon>frmNameValueParameterSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02 Setup\frmOtherParameter.resx">
+      <DependentUpon>frmOtherParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmShareSubscribing.resx">
+      <DependentUpon>frmShareSubscribing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmMeetingAttendee.resx">
+      <DependentUpon>frmMeetingAttendee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmAuditLog.resx">
+      <DependentUpon>frmAuditLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmCalendarConvertor.resx">
+      <DependentUpon>frmCalendarConvertor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmOtherParameterSetup.resx">
+      <DependentUpon>frmOtherParameterSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmReportSetup.resx">
+      <DependentUpon>frmReportSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PaymentHistoryReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PaymentHistoryReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotingCardBoth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotingCardBoth.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotingCard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotingCard.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotingCard_Em.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotingCard_Em.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholderAttendanceListGeneralEmergency.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholderAttendanceListGeneralEmergency.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendAnnoucmentForm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendAnnoucmentForm2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendAnnoucmentFormbulckPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendAnnoucmentFormbulckPrint3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendAnnoucmentFormbulckPrint1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendAnnoucmentFormbulckPrint12.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendEarnedByShareholder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendEarnedByShareholder2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendMasterReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendMasterReportCheckList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendMasterReportCheckList2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\DividendPaidtoShareholder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DividendPaidtoShareholder2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfAttendeeAmharic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfAttendeeAmharic2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfEmrgMtngAttendeeAmharic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfEmrgMtngAttendeeAmharic2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfMeetingAttendee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfMeetingAttendee2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfVotedAttendee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfVotedAttendee2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfVotedAttendeeAmharic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfVotedAttendeeAmharic2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfVotedAttendeeForNomineeAmharic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfVotedAttendeeForNomineeAmharic2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholderAttendanceList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholderAttendanceList2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholderAttendanceListBoth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholderAttendanceListBoth2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholderAttendanceListMergency.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholderAttendanceListMergency2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholderDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholderDetails2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\shareholdersDetailAmharic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>shareholdersDetailAmharic2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholdersWhoseDividendNotPaid.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholdersWhoseDividendNotPaid2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareholdersWhoseOutstandingNonZero.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareholdersWhoseOutstandingNonZero2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareoldersOutstandingShare.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareoldersOutstandingShare2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\ShareTransferReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShareTransferReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\UnpaidDividendbyShareholder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>UnpaidDividendbyShareholder2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotingCardForElectionCommitteeNominee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotingCardForElectionCommitteeNominee2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09 Enquiries\frmTotalShareEnquiry.resx">
+      <DependentUpon>frmTotalShareEnquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10 Security\frmRole.resx">
+      <DependentUpon>frmRole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10 Security\frmUserAdmin.resx">
+      <DependentUpon>frmUserAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11 Report Setup\frmReportParameter.resx">
+      <DependentUpon>frmReportParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11 Report Setup\frmReportPreview.resx">
+      <DependentUpon>frmReportPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11 Report Setup\frmReportSelection.resx">
+      <DependentUpon>frmReportSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02 Setup\frmDividendParameters.resx">
+      <DependentUpon>frmDividendParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02 Setup\frmGeneralParameters.resx">
+      <DependentUpon>frmGeneralParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmCalculateCurrentTotalShare.resx">
+      <DependentUpon>frmCalculateCurrentTotalShare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmCalculateTotalVotPerAgendaofAsession.resx">
+      <DependentUpon>frmCalculateTotalVotPerAgendaofAsession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmCloseSession.resx">
+      <DependentUpon>frmCloseSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmAttendeesLiveFollowup.resx">
+      <DependentUpon>frmAttendeesLiveFollowup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01 File\frmApplications.resx">
+      <DependentUpon>frmApplications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01 File\frmDefaults.resx">
+      <DependentUpon>frmDefaults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01 File\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13 Dividend\frmDividendCalculation.resx">
+      <DependentUpon>frmDividendCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmCancelSubscribedShareTransaction.resx">
+      <DependentUpon>frmCancelSubscribedShareTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmCancelSharePayment.resx">
+      <DependentUpon>frmCancelSharePayment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmCancelShareTransfer.resx">
+      <DependentUpon>frmCancelShareTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13 Dividend\frmCancelPaidDividend.resx">
+      <DependentUpon>frmCancelPaidDividend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmTerminateShareholder.resx">
+      <DependentUpon>frmTerminateShareholder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmElectionComitteeNominee.resx">
+      <DependentUpon>frmElectionComitteeNominee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmElectionNomineesLiveFollowup.resx">
+      <DependentUpon>frmElectionNomineesLiveFollowup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmEmergencyMeetingAttendeesLiveFollowup.resx">
+      <DependentUpon>frmEmergencyMeetingAttendeesLiveFollowup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmCalculateTotalVotPerNomineeofAsession.resx">
+      <DependentUpon>frmCalculateTotalVotPerNomineeofAsession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmEmergencyMeetingAttendee.resx">
+      <DependentUpon>frmEmergencyMeetingAttendee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13 Dividend\frmDividendPayable.resx">
+      <DependentUpon>frmDividendPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmCashPayable.resx">
+      <DependentUpon>frmCashPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13 Dividend\frmCancelPayDividendPayable.resx">
+      <DependentUpon>frmCancelPayDividendPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmCancelPaidCashPayable.resx">
+      <DependentUpon>frmCancelPaidCashPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmBoardofDirectorsNominee.resx">
+      <DependentUpon>frmBoardofDirectorsNominee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmCalculateTotalVotPerBoDsNomineeofAsession..resx">
+      <DependentUpon>frmCalculateTotalVotPerBoDsNomineeofAsession..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmBoDsVotingFollowup.resx">
+      <DependentUpon>frmBoDsVotingFollowup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarqueeProgress.resx">
+      <DependentUpon>frmMarqueeProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDI.resx">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmMeetingSession.resx">
+      <DependentUpon>frmMeetingSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmMeetingAgenda.resx">
+      <DependentUpon>frmMeetingAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmReminderPreview.resx">
+      <DependentUpon>frmReminderPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmReminderSelection.resx">
+      <DependentUpon>frmReminderSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05 Utility\frmReminderSetup.resx">
+      <DependentUpon>frmReminderSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmShareholderDetails.resx">
+      <DependentUpon>frmShareholderDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmSharePayment.resx">
+      <DependentUpon>frmSharePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmShareTransfer.resx">
+      <DependentUpon>frmShareTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmVotingForNominiOtherOption.resx">
+      <DependentUpon>frmVotingForNominiOtherOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09 Enquiries\frmVotingEnquiry.resx">
+      <DependentUpon>frmVotingEnquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmVotingForAgenda.resx">
+      <DependentUpon>frmVotingForAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01 File\frmYearEnd.resx">
+      <DependentUpon>frmYearEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13 Dividend\frmPayDividend.resx">
+      <DependentUpon>frmPayDividend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmVotForElectionCommitteNominees.resx">
+      <DependentUpon>frmVotForElectionCommitteNominees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03 Share Transaction\frmPayCashPayable.resx">
+      <DependentUpon>frmPayCashPayable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04 Votting\frmVotforBoDNominee.resx">
+      <DependentUpon>frmVotforBoDNominee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\PercentageOfVotedAttendeeForBoDsNomineeAmharic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PercentageOfVotedAttendeeForBoDsNomineeAmharic.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotCardForBoDsSingleWithoutname.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotCardForBoDsSingleWithoutname.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotCardForBoDsSingleWithoutnameForInfluencials.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotCardForBoDsSingleWithoutnameForInfluencials.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotCardForBoDsSingleWithNameForNonInfluencials.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotCardForBoDsSingleWithNameForNonInfluencials.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06 Report\VotCardForBoDsSingleWithNameForBoth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VotCardForBoDsSingleWithNameForBoth1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SHMDataSet.cs">
+      <DependentUpon>SHMDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SHMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SHMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="06 Report\VotCardForBoDsSingleWithoutname.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VotCardForBoDsSingleWithoutname.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06 Report\VotCardForBoDsSingleWithoutnameForInfluencials.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VotCardForBoDsSingleWithoutnameForInfluencials.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06 Report\VotCardForBoDsSingleWithNameForNonInfluencials.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VotCardForBoDsSingleWithNameForNonInfluencials.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="06 Report\VotCardForBoDsSingleWithNameForBoth1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VotCardForBoDsSingleWithNameForBoth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="07 Resources\logo.png" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SHMDataSet.xsc">
+      <DependentUpon>SHMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SHMDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SHMDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SHMDataSet.xss">
+      <DependentUpon>SHMDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="banner_new.png" />
+    <Content Include="Copy of icmc_banner_2.png" />
+    <Content Include="icmc_banner.png" />
+    <Content Include="icmc_banner_2.png" />
+    <Content Include="icmc_icon.ico" />
+    <Content Include="ICMC_ICON.png" />
+    <Content Include="ICMC_ICON_F.ico" />
+    <None Include="Resources\logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="12 Help\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

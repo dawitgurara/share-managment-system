@@ -1,0 +1,330 @@
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.exe.config
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.exe
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.pdb
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\ResolveAssemblyReference.cache
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCompany.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmFiscalYears.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPeriods.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmNameValueParameterSetup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmOtherParameter.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareSubscribing.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingAttendee.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmAuditLog.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalendarConvertor.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmOtherParameterSetup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportSetup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmTotalShareEnquiry.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmRole.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmUserAdmin.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportParameter.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportPreview.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportSelection.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendParameters.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmGeneralParameters.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateCurrentTotalShare.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerAgendaofAsession.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCloseSession.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmAttendeesLiveFollowup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmApplications.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDefaults.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmChangePassword.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendCalculation.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelSubscribedShareTransaction.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelSharePayment.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelShareTransfer.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPaidDividend.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmTerminateShareholder.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmElectionComitteeNominee.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmElectionNomineesLiveFollowup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendeesLiveFollowup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerNomineeofAsession.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendee.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendPayable.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCashPayable.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPayDividendPayable.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPaidCashPayable.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmBoardofDirectorsNominee.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerBoDsNomineeofAsession.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmBoDsVotingFollowup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmLogin.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMarqueeProgress.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMDI.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingSession.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingAgenda.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderPreview.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderSelection.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderSetup.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareholderDetails.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmSharePayment.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareTransfer.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingForNominiOtherOption.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingEnquiry.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingForAgenda.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmYearEnd.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPayDividend.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotForElectionCommitteNominees.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPayCashPayable.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotforBoDNominee.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.Properties.Resources.resources
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.csproj.GenerateResource.Cache
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.exe.licenses
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.exe
+E:\EthioLifeApp\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.pdb
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.exe.config
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.exe
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.pdb
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.exe
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.pdb
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCompany.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmFiscalYears.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPeriods.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmNameValueParameterSetup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmOtherParameter.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareSubscribing.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingAttendee.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmAuditLog.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalendarConvertor.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmOtherParameterSetup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportSetup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmTotalShareEnquiry.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmRole.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmUserAdmin.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportParameter.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportPreview.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportSelection.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendParameters.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmGeneralParameters.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateCurrentTotalShare.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerAgendaofAsession.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCloseSession.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmAttendeesLiveFollowup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmApplications.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDefaults.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmChangePassword.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendCalculation.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelSubscribedShareTransaction.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelSharePayment.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelShareTransfer.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPaidDividend.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmTerminateShareholder.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmElectionComitteeNominee.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmElectionNomineesLiveFollowup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendeesLiveFollowup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerNomineeofAsession.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendee.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendPayable.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCashPayable.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPayDividendPayable.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPaidCashPayable.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmBoardofDirectorsNominee.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerBoDsNomineeofAsession.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmBoDsVotingFollowup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmLogin.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMarqueeProgress.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMDI.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingSession.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingAgenda.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderPreview.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderSelection.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderSetup.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareholderDetails.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmSharePayment.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareTransfer.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingForNominiOtherOption.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingEnquiry.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingForAgenda.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmYearEnd.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPayDividend.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotForElectionCommitteNominees.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPayCashPayable.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotforBoDNominee.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.Properties.Resources.resources
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.csproj.GenerateResource.Cache
+E:\MyDocs\Applications\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.exe.licenses
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.exe.config
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.exe
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.pdb
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.exe
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\bin\Debug\SHM.pdb
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.csprojResolveAssemblyReference.cache
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCompany.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmFiscalYears.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPeriods.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmNameValueParameterSetup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmOtherParameter.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareSubscribing.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingAttendee.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmAuditLog.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalendarConvertor.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmOtherParameterSetup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportSetup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmTotalShareEnquiry.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmRole.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmUserAdmin.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportParameter.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportPreview.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReportSelection.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendParameters.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmGeneralParameters.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateCurrentTotalShare.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerAgendaofAsession.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCloseSession.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmAttendeesLiveFollowup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmApplications.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDefaults.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmChangePassword.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendCalculation.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelSubscribedShareTransaction.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelSharePayment.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelShareTransfer.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPaidDividend.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmTerminateShareholder.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmElectionComitteeNominee.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmElectionNomineesLiveFollowup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendeesLiveFollowup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerNomineeofAsession.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendee.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmDividendPayable.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCashPayable.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPayDividendPayable.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCancelPaidCashPayable.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmBoardofDirectorsNominee.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerBoDsNomineeofAsession.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmBoDsVotingFollowup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmLogin.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMarqueeProgress.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMDI.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingSession.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmMeetingAgenda.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderPreview.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderSelection.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmReminderSetup.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareholderDetails.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmSharePayment.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmShareTransfer.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingForNominiOtherOption.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingEnquiry.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotingForAgenda.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmYearEnd.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPayDividend.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotForElectionCommitteNominees.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmPayCashPayable.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.frmVotforBoDNominee.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.Properties.Resources.resources
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.csproj.GenerateResource.Cache
+D:\ELiG\ELiG\ELiG App\ELiGSHMProj\SHM\SHM\obj\Debug\SHM.exe.licenses
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\SHM.exe.config
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.exe
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.pdb
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\SHM.exe
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\SHM.pdb
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.csprojResolveAssemblyReference.cache
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCompany.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmFiscalYears.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmPeriods.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmNameValueParameterSetup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmOtherParameter.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmShareSubscribing.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmMeetingAttendee.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmAuditLog.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCalendarConvertor.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmOtherParameterSetup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReportSetup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmTotalShareEnquiry.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmRole.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmUserAdmin.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReportParameter.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReportPreview.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReportSelection.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmDividendParameters.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmGeneralParameters.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCalculateCurrentTotalShare.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerAgendaofAsession.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCloseSession.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmAttendeesLiveFollowup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmApplications.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmDefaults.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmChangePassword.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmDividendCalculation.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCancelSubscribedShareTransaction.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCancelSharePayment.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCancelShareTransfer.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCancelPaidDividend.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmTerminateShareholder.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmElectionComitteeNominee.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmElectionNomineesLiveFollowup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendeesLiveFollowup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerNomineeofAsession.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmEmergencyMeetingAttendee.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmDividendPayable.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCashPayable.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCancelPayDividendPayable.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCancelPaidCashPayable.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmBoardofDirectorsNominee.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmCalculateTotalVotPerBoDsNomineeofAsession.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmBoDsVotingFollowup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmLogin.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmMarqueeProgress.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmMDI.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmMeetingSession.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmMeetingAgenda.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReminderPreview.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReminderSelection.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmReminderSetup.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmShareholderDetails.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmSharePayment.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmShareTransfer.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmVotingForNominiOtherOption.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmVotingEnquiry.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmVotingForAgenda.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmYearEnd.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmPayDividend.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmVotForElectionCommitteNominees.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmPayCashPayable.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.frmVotforBoDNominee.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.Properties.Resources.resources
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.csproj.GenerateResource.Cache
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.exe.licenses
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\CrystalDecisions.Shared.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.Data.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.Utils.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraBars.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraEditors.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraGrid.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraNavBar.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraPrinting.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraRichTextEdit.v7.2.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Configuration.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Data.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Data.Linq.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Data.Services.Client.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Data.Services.Design.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Data.Services.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Deployment.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Design.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Drawing.Design.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Drawing.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.IO.Log.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Messaging.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Net.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Printing.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Security.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Transactions.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Web.Services.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Windows.Forms.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Xml.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\System.Xml.Linq.dll
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.Data.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.Utils.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraBars.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraEditors.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraGrid.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraNavBar.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\bin\Debug\DevExpress.XtraPrinting.v7.2.xml
+D:\Personal\ICMC\SHM Last Update\SHM Last Update\SHM\SHM\obj\Debug\SHM.Form1.resources

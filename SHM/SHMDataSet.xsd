@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SHMDataSet" targetNamespace="http://tempuri.org/SHMDataSet.xsd" xmlns:mstns="http://tempuri.org/SHMDataSet.xsd" xmlns="http://tempuri.org/SHMDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="3" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="iCMCSHMDataConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="iCMCSHMDataConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SHM.Properties.Settings.GlobalReference.Default.iCMCSHMDataConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="iCMCSHMDataConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="iCMCSHMDataConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SHM.Properties.Settings.GlobalReference.Default.iCMCSHMDataConnectionString2" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="iCMCSHMDataConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="iCMCSHMDataConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SHM.Properties.Settings.GlobalReference.Default.iCMCSHMDataConnectionString3" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="iCMCSHMDataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="iCMCSHMDataConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SHM.Properties.Settings.GlobalReference.Default.iCMCSHMDataConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewVotCardForBoDsElectionWithNameTableAdapter" GeneratorDataComponentClassName="ViewVotCardForBoDsElectionWithNameTableAdapter" Name="ViewVotCardForBoDsElectionWithName" UserDataComponentName="ViewVotCardForBoDsElectionWithNameTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewVotCardForBoDsElectionWithName" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SHId, RegCode, FullName, FullNameAmharic, FiscalYear, RoundNo, MeetingDate, MeetingDateEth, Venue, venuAmharic, Description, DescriptionAmharic, NomineeId, NomineeRegCode, NomineeSHId, NomineeFullName, NomineeFullNameAmharic, IsNombyNonInfluence, SessionId, SubscribedShareNoModif, TotalSubscribedShareNo, PecentageOfShareSubscribed FROM dbo.ViewVotCardForBoDsElectionWithName</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="NomineeId" DataSetColumn="NomineeId" />
+              <Mapping SourceColumn="NomineeRegCode" DataSetColumn="NomineeRegCode" />
+              <Mapping SourceColumn="NomineeSHId" DataSetColumn="NomineeSHId" />
+              <Mapping SourceColumn="NomineeFullName" DataSetColumn="NomineeFullName" />
+              <Mapping SourceColumn="NomineeFullNameAmharic" DataSetColumn="NomineeFullNameAmharic" />
+              <Mapping SourceColumn="IsNombyNonInfluence" DataSetColumn="IsNombyNonInfluence" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="TotalSubscribedShareNo" DataSetColumn="TotalSubscribedShareNo" />
+              <Mapping SourceColumn="PecentageOfShareSubscribed" DataSetColumn="PecentageOfShareSubscribed" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewVotCardForBoDsElectionWithNameForBothTableAdapter" GeneratorDataComponentClassName="ViewVotCardForBoDsElectionWithNameForBothTableAdapter" Name="ViewVotCardForBoDsElectionWithNameForBoth" UserDataComponentName="ViewVotCardForBoDsElectionWithNameForBothTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewVotCardForBoDsElectionWithNameForBoth" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SHId, RegCode, FullName, FullNameAmharic, FiscalYear, RoundNo, MeetingDate, MeetingDateEth, Venue, venuAmharic, Description, DescriptionAmharic, NomineeId, NomineeRegCode, NomineeSHId, NomineeFullName, NomineeFullNameAmharic, SessionId, SubscribedShareNoModif, TotalSubscribedShareNo, PecentageOfShareSubscribed FROM dbo.ViewVotCardForBoDsElectionWithNameForBoth</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="NomineeId" DataSetColumn="NomineeId" />
+              <Mapping SourceColumn="NomineeRegCode" DataSetColumn="NomineeRegCode" />
+              <Mapping SourceColumn="NomineeSHId" DataSetColumn="NomineeSHId" />
+              <Mapping SourceColumn="NomineeFullName" DataSetColumn="NomineeFullName" />
+              <Mapping SourceColumn="NomineeFullNameAmharic" DataSetColumn="NomineeFullNameAmharic" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="TotalSubscribedShareNo" DataSetColumn="TotalSubscribedShareNo" />
+              <Mapping SourceColumn="PecentageOfShareSubscribed" DataSetColumn="PecentageOfShareSubscribed" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsTableAdapter" GeneratorDataComponentClassName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsTableAdapter" Name="ViewVotCardForBoDsElectionWithNameForNonInfluncials" UserDataComponentName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewVotCardForBoDsElectionWithNameForNonInfluncials" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SHId, RegCode, FullName, FullNameAmharic, FiscalYear, RoundNo, MeetingDate, MeetingDateEth, Venue, venuAmharic, Description, DescriptionAmharic, NomineeId, NomineeRegCode, NomineeSHId, NomineeFullName, NomineeFullNameAmharic, SessionId, SubscribedShareNoModif, TotalSubscribedShareNo, PecentageOfShareSubscribed FROM dbo.ViewVotCardForBoDsElectionWithNameForNonInfluncials</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="NomineeId" DataSetColumn="NomineeId" />
+              <Mapping SourceColumn="NomineeRegCode" DataSetColumn="NomineeRegCode" />
+              <Mapping SourceColumn="NomineeSHId" DataSetColumn="NomineeSHId" />
+              <Mapping SourceColumn="NomineeFullName" DataSetColumn="NomineeFullName" />
+              <Mapping SourceColumn="NomineeFullNameAmharic" DataSetColumn="NomineeFullNameAmharic" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="TotalSubscribedShareNo" DataSetColumn="TotalSubscribedShareNo" />
+              <Mapping SourceColumn="PecentageOfShareSubscribed" DataSetColumn="PecentageOfShareSubscribed" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewVotCardForBoDsElectionWithoutNameTableAdapter" GeneratorDataComponentClassName="ViewVotCardForBoDsElectionWithoutNameTableAdapter" Name="ViewVotCardForBoDsElectionWithoutName" UserDataComponentName="ViewVotCardForBoDsElectionWithoutNameTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewVotCardForBoDsElectionWithoutName" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SHId, RegCode, FullName, FullNameAmharic, FiscalYear, RoundNo, MeetingDate, MeetingDateEth, Venue, venuAmharic, Description, DescriptionAmharic, SessionId, SubscribedShareNoModif, NomineeId, PecentageOfShareSubscribed FROM dbo.ViewVotCardForBoDsElectionWithoutName</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="NomineeId" DataSetColumn="NomineeId" />
+              <Mapping SourceColumn="PecentageOfShareSubscribed" DataSetColumn="PecentageOfShareSubscribed" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsTableAdapter" GeneratorDataComponentClassName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsTableAdapter" Name="ViewVotCardForBoDsElectionWithoutNameForInfluencials" UserDataComponentName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewVotCardForBoDsElectionWithoutNameForInfluencials" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SHId, RegCode, FullName, FullNameAmharic, FiscalYear, RoundNo, MeetingDate, MeetingDateEth, Venue, venuAmharic, Description, DescriptionAmharic, SessionId, SubscribedShareNoModif, NomineeId, PecentageOfShareSubscribed FROM dbo.ViewVotCardForBoDsElectionWithoutNameForInfluencials</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="NomineeId" DataSetColumn="NomineeId" />
+              <Mapping SourceColumn="PecentageOfShareSubscribed" DataSetColumn="PecentageOfShareSubscribed" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewShareholderDetailTableAdapter" GeneratorDataComponentClassName="ViewShareholderDetailTableAdapter" Name="ViewShareholderDetail" UserDataComponentName="ViewShareholderDetailTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewShareholderDetail" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SHId, Title, FullName, FullNameAmharic, Sex, RegCode, DOReg, DORegEth, IsLBFounder, IsGBFounder, SHStatus, Nationality, Region, City, SubCity, Woreda_Kebele, HouseNo, OfficeTelNo, ResTelNo, MobileNo1, MobileNo2, POBox, Email1, Email2, Fax, SubscribedShareNoOrg, SubscribedShareAmtOrg, SubscribedShareNoModif, SubscribedShareAmtModif, PaidUpNoofShare, PaidUpShareAmt, UnpaidShareNo, SessionId, MeetingDate, MeetingDateEth, DescriptionAmharic, Description, venuAmharic, Venue, RoundNo, IsActive FROM dbo.ViewShareholderDetail</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="Title" DataSetColumn="Title" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="Sex" DataSetColumn="Sex" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="DOReg" DataSetColumn="DOReg" />
+              <Mapping SourceColumn="DORegEth" DataSetColumn="DORegEth" />
+              <Mapping SourceColumn="IsLBFounder" DataSetColumn="IsLBFounder" />
+              <Mapping SourceColumn="IsGBFounder" DataSetColumn="IsGBFounder" />
+              <Mapping SourceColumn="SHStatus" DataSetColumn="SHStatus" />
+              <Mapping SourceColumn="Nationality" DataSetColumn="Nationality" />
+              <Mapping SourceColumn="Region" DataSetColumn="Region" />
+              <Mapping SourceColumn="City" DataSetColumn="City" />
+              <Mapping SourceColumn="SubCity" DataSetColumn="SubCity" />
+              <Mapping SourceColumn="Woreda_Kebele" DataSetColumn="Woreda_Kebele" />
+              <Mapping SourceColumn="HouseNo" DataSetColumn="HouseNo" />
+              <Mapping SourceColumn="OfficeTelNo" DataSetColumn="OfficeTelNo" />
+              <Mapping SourceColumn="ResTelNo" DataSetColumn="ResTelNo" />
+              <Mapping SourceColumn="MobileNo1" DataSetColumn="MobileNo1" />
+              <Mapping SourceColumn="MobileNo2" DataSetColumn="MobileNo2" />
+              <Mapping SourceColumn="POBox" DataSetColumn="POBox" />
+              <Mapping SourceColumn="Email1" DataSetColumn="Email1" />
+              <Mapping SourceColumn="Email2" DataSetColumn="Email2" />
+              <Mapping SourceColumn="Fax" DataSetColumn="Fax" />
+              <Mapping SourceColumn="SubscribedShareNoOrg" DataSetColumn="SubscribedShareNoOrg" />
+              <Mapping SourceColumn="SubscribedShareAmtOrg" DataSetColumn="SubscribedShareAmtOrg" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="SubscribedShareAmtModif" DataSetColumn="SubscribedShareAmtModif" />
+              <Mapping SourceColumn="PaidUpNoofShare" DataSetColumn="PaidUpNoofShare" />
+              <Mapping SourceColumn="PaidUpShareAmt" DataSetColumn="PaidUpShareAmt" />
+              <Mapping SourceColumn="UnpaidShareNo" DataSetColumn="UnpaidShareNo" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="IsActive" DataSetColumn="IsActive" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewTotalVotPerBoDsNomineofaSessionTableAdapter" GeneratorDataComponentClassName="ViewTotalVotPerBoDsNomineofaSessionTableAdapter" Name="ViewTotalVotPerBoDsNomineofaSession" UserDataComponentName="ViewTotalVotPerBoDsNomineofaSessionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.ViewTotalVotPerBoDsNomineofaSession" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SessionId, NomineeRegCode, NomineeSHId, NomineeFullName, NomineeFullNameAmharic, IsFormerBoDs, TotalVotByNonInfluencial, TotalVotByInfluencial, NoOfNonInfluShareholderVoted, NoOfInfluShareholderVoted, FiscalYear, MeetingDate, MeetingDateEth, Description, DescriptionAmharic, Venue, venuAmharic, RoundNo, NominiTypeForRecOrdering, IsNombyNonInfluence FROM dbo.ViewTotalVotPerBoDsNomineofaSession</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="NomineeRegCode" DataSetColumn="NomineeRegCode" />
+              <Mapping SourceColumn="NomineeSHId" DataSetColumn="NomineeSHId" />
+              <Mapping SourceColumn="NomineeFullName" DataSetColumn="NomineeFullName" />
+              <Mapping SourceColumn="NomineeFullNameAmharic" DataSetColumn="NomineeFullNameAmharic" />
+              <Mapping SourceColumn="IsFormerBoDs" DataSetColumn="IsFormerBoDs" />
+              <Mapping SourceColumn="TotalVotByNonInfluencial" DataSetColumn="TotalVotByNonInfluencial" />
+              <Mapping SourceColumn="TotalVotByInfluencial" DataSetColumn="TotalVotByInfluencial" />
+              <Mapping SourceColumn="NoOfNonInfluShareholderVoted" DataSetColumn="NoOfNonInfluShareholderVoted" />
+              <Mapping SourceColumn="NoOfInfluShareholderVoted" DataSetColumn="NoOfInfluShareholderVoted" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="NominiTypeForRecOrdering" DataSetColumn="NominiTypeForRecOrdering" />
+              <Mapping SourceColumn="IsNombyNonInfluence" DataSetColumn="IsNombyNonInfluence" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PS_DividendMasterTableAdapter" GeneratorDataComponentClassName="PS_DividendMasterTableAdapter" Name="PS_DividendMaster" UserDataComponentName="PS_DividendMasterTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString3 (Settings)" DbObjectName="ELiGSHMData.dbo.PS_DividendMaster" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.PS_DividendMaster</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@FiscalYear" Precision="0" ProviderType="VarChar" Scale="0" Size="10" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="Title" DataSetColumn="Title" />
+              <Mapping SourceColumn="Sex" DataSetColumn="Sex" />
+              <Mapping SourceColumn="DOReg" DataSetColumn="DOReg" />
+              <Mapping SourceColumn="DORegEth" DataSetColumn="DORegEth" />
+              <Mapping SourceColumn="IsLBFounder" DataSetColumn="IsLBFounder" />
+              <Mapping SourceColumn="IsGBFounder" DataSetColumn="IsGBFounder" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="MobileNo1" DataSetColumn="MobileNo1" />
+              <Mapping SourceColumn="MobileNo2" DataSetColumn="MobileNo2" />
+              <Mapping SourceColumn="SubscribedShareNoOrg" DataSetColumn="SubscribedShareNoOrg" />
+              <Mapping SourceColumn="SubscribedShareAmtOrg" DataSetColumn="SubscribedShareAmtOrg" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="SubscribedShareAmtModif" DataSetColumn="SubscribedShareAmtModif" />
+              <Mapping SourceColumn="PaidupNoofShare" DataSetColumn="PaidupNoofShare" />
+              <Mapping SourceColumn="PaidupNoofShareDecimal" DataSetColumn="PaidupNoofShareDecimal" />
+              <Mapping SourceColumn="PaidupShareAmt" DataSetColumn="PaidupShareAmt" />
+              <Mapping SourceColumn="PaidupShareAmtDecimal" DataSetColumn="PaidupShareAmtDecimal" />
+              <Mapping SourceColumn="LFRRDiv" DataSetColumn="LFRRDiv" />
+              <Mapping SourceColumn="GFRRDiv" DataSetColumn="GFRRDiv" />
+              <Mapping SourceColumn="CommonDiv" DataSetColumn="CommonDiv" />
+              <Mapping SourceColumn="RemainingDiv" DataSetColumn="RemainingDiv" />
+              <Mapping SourceColumn="SumofComm_Remain" DataSetColumn="SumofComm_Remain" />
+              <Mapping SourceColumn="GrossDividend" DataSetColumn="GrossDividend" />
+              <Mapping SourceColumn="Tax" DataSetColumn="Tax" />
+              <Mapping SourceColumn="NetDividend" DataSetColumn="NetDividend" />
+              <Mapping SourceColumn="IsPaid" DataSetColumn="IsPaid" />
+              <Mapping SourceColumn="IsPaidToOutstanding" DataSetColumn="IsPaidToOutstanding" />
+              <Mapping SourceColumn="IsCapitalized" DataSetColumn="IsCapitalized" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_PaymentHistoryTableAdapter" GeneratorDataComponentClassName="View_PaymentHistoryTableAdapter" Name="View_PaymentHistory" UserDataComponentName="View_PaymentHistoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString (Settings)" DbObjectName="ICMCTEST.dbo.View_PaymentHistory" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        PaymentId, FiscalYear, ReceiptNo, TypeofPayment, EffectiveDate, IsCanceled, SHId, DateofPayment, DateofPaymentEth, EffectiveDateEth, NoofSharePaid, AmntofSharePaid, CrtBy, CrtDt, CrtWs, LmBy, LmDt, LmWs, 
+                         PaymentTypeDesc, RegCode, Title, FullName, FullNameAmharic, Sex, DOReg, DORegEth, SHStatus, SubscribedShareNoOrg, SubscribedShareAmtOrg, PaidUpNoofShare, PaidUpShareAmt
+FROM            View_PaymentHistory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PaymentId" DataSetColumn="PaymentId" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="ReceiptNo" DataSetColumn="ReceiptNo" />
+              <Mapping SourceColumn="TypeofPayment" DataSetColumn="TypeofPayment" />
+              <Mapping SourceColumn="EffectiveDate" DataSetColumn="EffectiveDate" />
+              <Mapping SourceColumn="IsCanceled" DataSetColumn="IsCanceled" />
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="DateofPayment" DataSetColumn="DateofPayment" />
+              <Mapping SourceColumn="DateofPaymentEth" DataSetColumn="DateofPaymentEth" />
+              <Mapping SourceColumn="EffectiveDateEth" DataSetColumn="EffectiveDateEth" />
+              <Mapping SourceColumn="NoofSharePaid" DataSetColumn="NoofSharePaid" />
+              <Mapping SourceColumn="AmntofSharePaid" DataSetColumn="AmntofSharePaid" />
+              <Mapping SourceColumn="CrtBy" DataSetColumn="CrtBy" />
+              <Mapping SourceColumn="CrtDt" DataSetColumn="CrtDt" />
+              <Mapping SourceColumn="CrtWs" DataSetColumn="CrtWs" />
+              <Mapping SourceColumn="LmBy" DataSetColumn="LmBy" />
+              <Mapping SourceColumn="LmDt" DataSetColumn="LmDt" />
+              <Mapping SourceColumn="LmWs" DataSetColumn="LmWs" />
+              <Mapping SourceColumn="PaymentTypeDesc" DataSetColumn="PaymentTypeDesc" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="Title" DataSetColumn="Title" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="Sex" DataSetColumn="Sex" />
+              <Mapping SourceColumn="DOReg" DataSetColumn="DOReg" />
+              <Mapping SourceColumn="DORegEth" DataSetColumn="DORegEth" />
+              <Mapping SourceColumn="SHStatus" DataSetColumn="SHStatus" />
+              <Mapping SourceColumn="SubscribedShareNoOrg" DataSetColumn="SubscribedShareNoOrg" />
+              <Mapping SourceColumn="SubscribedShareAmtOrg" DataSetColumn="SubscribedShareAmtOrg" />
+              <Mapping SourceColumn="PaidUpNoofShare" DataSetColumn="PaidUpNoofShare" />
+              <Mapping SourceColumn="PaidUpShareAmt" DataSetColumn="PaidUpShareAmt" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewForVotingCardTableAdapter" GeneratorDataComponentClassName="ViewForVotingCardTableAdapter" Name="ViewForVotingCard" UserDataComponentName="ViewForVotingCardTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="iCMCSHMDataConnectionString (Settings)" DbObjectName="iCMCDB.dbo.ViewForVotingCard" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SHId, RegCode, FullName, FullNameAmharic, FiscalYear, RoundNo, MeetingDate, MeetingDateEth, Venue, venuAmharic, Description, DescriptionAmharic, AgendaId, Agenda, AgendaAmharic, SessionId, 
+                         SubscribedShareNoModif, PaidUpNoofShare
+FROM            ViewForVotingCard</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SHId" DataSetColumn="SHId" />
+              <Mapping SourceColumn="RegCode" DataSetColumn="RegCode" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+              <Mapping SourceColumn="FullNameAmharic" DataSetColumn="FullNameAmharic" />
+              <Mapping SourceColumn="FiscalYear" DataSetColumn="FiscalYear" />
+              <Mapping SourceColumn="RoundNo" DataSetColumn="RoundNo" />
+              <Mapping SourceColumn="MeetingDate" DataSetColumn="MeetingDate" />
+              <Mapping SourceColumn="MeetingDateEth" DataSetColumn="MeetingDateEth" />
+              <Mapping SourceColumn="Venue" DataSetColumn="Venue" />
+              <Mapping SourceColumn="venuAmharic" DataSetColumn="venuAmharic" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DescriptionAmharic" DataSetColumn="DescriptionAmharic" />
+              <Mapping SourceColumn="AgendaId" DataSetColumn="AgendaId" />
+              <Mapping SourceColumn="Agenda" DataSetColumn="Agenda" />
+              <Mapping SourceColumn="AgendaAmharic" DataSetColumn="AgendaAmharic" />
+              <Mapping SourceColumn="SessionId" DataSetColumn="SessionId" />
+              <Mapping SourceColumn="SubscribedShareNoModif" DataSetColumn="SubscribedShareNoModif" />
+              <Mapping SourceColumn="PaidUpNoofShare" DataSetColumn="PaidUpNoofShare" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SHMDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SHMDataSet" msprop:Generator_UserDSName="SHMDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViewVotCardForBoDsElectionWithName" msprop:Generator_UserTableName="ViewVotCardForBoDsElectionWithName" msprop:Generator_RowEvArgName="ViewVotCardForBoDsElectionWithNameRowChangeEvent" msprop:Generator_TableVarName="tableViewVotCardForBoDsElectionWithName" msprop:Generator_TablePropName="ViewVotCardForBoDsElectionWithName" msprop:Generator_RowDeletingName="ViewVotCardForBoDsElectionWithNameRowDeleting" msprop:Generator_RowChangingName="ViewVotCardForBoDsElectionWithNameRowChanging" msprop:Generator_RowDeletedName="ViewVotCardForBoDsElectionWithNameRowDeleted" msprop:Generator_RowEvHandlerName="ViewVotCardForBoDsElectionWithNameRowChangeEventHandler" msprop:Generator_TableClassName="ViewVotCardForBoDsElectionWithNameDataTable" msprop:Generator_RowChangedName="ViewVotCardForBoDsElectionWithNameRowChanged" msprop:Generator_RowClassName="ViewVotCardForBoDsElectionWithNameRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeId" msprop:Generator_ColumnVarNameInTable="columnNomineeId" msprop:Generator_ColumnPropNameInRow="NomineeId" msprop:Generator_ColumnPropNameInTable="NomineeIdColumn" msprop:Generator_UserColumnName="NomineeId" type="xs:int" />
+              <xs:element name="NomineeRegCode" msprop:Generator_ColumnVarNameInTable="columnNomineeRegCode" msprop:Generator_ColumnPropNameInRow="NomineeRegCode" msprop:Generator_ColumnPropNameInTable="NomineeRegCodeColumn" msprop:Generator_UserColumnName="NomineeRegCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeSHId" msprop:Generator_ColumnVarNameInTable="columnNomineeSHId" msprop:Generator_ColumnPropNameInRow="NomineeSHId" msprop:Generator_ColumnPropNameInTable="NomineeSHIdColumn" msprop:Generator_UserColumnName="NomineeSHId" type="xs:int" />
+              <xs:element name="NomineeFullName" msprop:Generator_ColumnVarNameInTable="columnNomineeFullName" msprop:Generator_ColumnPropNameInRow="NomineeFullName" msprop:Generator_ColumnPropNameInTable="NomineeFullNameColumn" msprop:Generator_UserColumnName="NomineeFullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeFullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnNomineeFullNameAmharic" msprop:Generator_ColumnPropNameInRow="NomineeFullNameAmharic" msprop:Generator_ColumnPropNameInTable="NomineeFullNameAmharicColumn" msprop:Generator_UserColumnName="NomineeFullNameAmharic">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsNombyNonInfluence" msprop:Generator_ColumnVarNameInTable="columnIsNombyNonInfluence" msprop:Generator_ColumnPropNameInRow="IsNombyNonInfluence" msprop:Generator_ColumnPropNameInTable="IsNombyNonInfluenceColumn" msprop:Generator_UserColumnName="IsNombyNonInfluence" type="xs:boolean" />
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="SubscribedShareNoModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" />
+              <xs:element name="TotalSubscribedShareNo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalSubscribedShareNo" msprop:Generator_ColumnPropNameInRow="TotalSubscribedShareNo" msprop:Generator_ColumnPropNameInTable="TotalSubscribedShareNoColumn" msprop:Generator_UserColumnName="TotalSubscribedShareNo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PecentageOfShareSubscribed" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInRow="PecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInTable="PecentageOfShareSubscribedColumn" msprop:Generator_UserColumnName="PecentageOfShareSubscribed" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewVotCardForBoDsElectionWithNameForBoth" msprop:Generator_UserTableName="ViewVotCardForBoDsElectionWithNameForBoth" msprop:Generator_RowEvArgName="ViewVotCardForBoDsElectionWithNameForBothRowChangeEvent" msprop:Generator_TableVarName="tableViewVotCardForBoDsElectionWithNameForBoth" msprop:Generator_TablePropName="ViewVotCardForBoDsElectionWithNameForBoth" msprop:Generator_RowDeletingName="ViewVotCardForBoDsElectionWithNameForBothRowDeleting" msprop:Generator_RowChangingName="ViewVotCardForBoDsElectionWithNameForBothRowChanging" msprop:Generator_RowDeletedName="ViewVotCardForBoDsElectionWithNameForBothRowDeleted" msprop:Generator_RowEvHandlerName="ViewVotCardForBoDsElectionWithNameForBothRowChangeEventHandler" msprop:Generator_TableClassName="ViewVotCardForBoDsElectionWithNameForBothDataTable" msprop:Generator_RowChangedName="ViewVotCardForBoDsElectionWithNameForBothRowChanged" msprop:Generator_RowClassName="ViewVotCardForBoDsElectionWithNameForBothRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeId" msprop:Generator_ColumnVarNameInTable="columnNomineeId" msprop:Generator_ColumnPropNameInRow="NomineeId" msprop:Generator_ColumnPropNameInTable="NomineeIdColumn" msprop:Generator_UserColumnName="NomineeId" type="xs:int" />
+              <xs:element name="NomineeRegCode" msprop:Generator_ColumnVarNameInTable="columnNomineeRegCode" msprop:Generator_ColumnPropNameInRow="NomineeRegCode" msprop:Generator_ColumnPropNameInTable="NomineeRegCodeColumn" msprop:Generator_UserColumnName="NomineeRegCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeSHId" msprop:Generator_ColumnVarNameInTable="columnNomineeSHId" msprop:Generator_ColumnPropNameInRow="NomineeSHId" msprop:Generator_ColumnPropNameInTable="NomineeSHIdColumn" msprop:Generator_UserColumnName="NomineeSHId" type="xs:int" />
+              <xs:element name="NomineeFullName" msprop:Generator_ColumnVarNameInTable="columnNomineeFullName" msprop:Generator_ColumnPropNameInRow="NomineeFullName" msprop:Generator_ColumnPropNameInTable="NomineeFullNameColumn" msprop:Generator_UserColumnName="NomineeFullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeFullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnNomineeFullNameAmharic" msprop:Generator_ColumnPropNameInRow="NomineeFullNameAmharic" msprop:Generator_ColumnPropNameInTable="NomineeFullNameAmharicColumn" msprop:Generator_UserColumnName="NomineeFullNameAmharic">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="SubscribedShareNoModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" />
+              <xs:element name="TotalSubscribedShareNo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalSubscribedShareNo" msprop:Generator_ColumnPropNameInRow="TotalSubscribedShareNo" msprop:Generator_ColumnPropNameInTable="TotalSubscribedShareNoColumn" msprop:Generator_UserColumnName="TotalSubscribedShareNo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PecentageOfShareSubscribed" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInRow="PecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInTable="PecentageOfShareSubscribedColumn" msprop:Generator_UserColumnName="PecentageOfShareSubscribed" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewVotCardForBoDsElectionWithNameForNonInfluncials" msprop:Generator_UserTableName="ViewVotCardForBoDsElectionWithNameForNonInfluncials" msprop:Generator_RowEvArgName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRowChangeEvent" msprop:Generator_TableVarName="tableViewVotCardForBoDsElectionWithNameForNonInfluncials" msprop:Generator_TablePropName="ViewVotCardForBoDsElectionWithNameForNonInfluncials" msprop:Generator_RowDeletingName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRowDeleting" msprop:Generator_RowChangingName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRowChanging" msprop:Generator_RowDeletedName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRowDeleted" msprop:Generator_RowEvHandlerName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRowChangeEventHandler" msprop:Generator_TableClassName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsDataTable" msprop:Generator_RowChangedName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRowChanged" msprop:Generator_RowClassName="ViewVotCardForBoDsElectionWithNameForNonInfluncialsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeId" msprop:Generator_ColumnVarNameInTable="columnNomineeId" msprop:Generator_ColumnPropNameInRow="NomineeId" msprop:Generator_ColumnPropNameInTable="NomineeIdColumn" msprop:Generator_UserColumnName="NomineeId" type="xs:int" />
+              <xs:element name="NomineeRegCode" msprop:Generator_ColumnVarNameInTable="columnNomineeRegCode" msprop:Generator_ColumnPropNameInRow="NomineeRegCode" msprop:Generator_ColumnPropNameInTable="NomineeRegCodeColumn" msprop:Generator_UserColumnName="NomineeRegCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeSHId" msprop:Generator_ColumnVarNameInTable="columnNomineeSHId" msprop:Generator_ColumnPropNameInRow="NomineeSHId" msprop:Generator_ColumnPropNameInTable="NomineeSHIdColumn" msprop:Generator_UserColumnName="NomineeSHId" type="xs:int" />
+              <xs:element name="NomineeFullName" msprop:Generator_ColumnVarNameInTable="columnNomineeFullName" msprop:Generator_ColumnPropNameInRow="NomineeFullName" msprop:Generator_ColumnPropNameInTable="NomineeFullNameColumn" msprop:Generator_UserColumnName="NomineeFullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeFullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnNomineeFullNameAmharic" msprop:Generator_ColumnPropNameInRow="NomineeFullNameAmharic" msprop:Generator_ColumnPropNameInTable="NomineeFullNameAmharicColumn" msprop:Generator_UserColumnName="NomineeFullNameAmharic">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="SubscribedShareNoModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" />
+              <xs:element name="TotalSubscribedShareNo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalSubscribedShareNo" msprop:Generator_ColumnPropNameInRow="TotalSubscribedShareNo" msprop:Generator_ColumnPropNameInTable="TotalSubscribedShareNoColumn" msprop:Generator_UserColumnName="TotalSubscribedShareNo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PecentageOfShareSubscribed" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInRow="PecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInTable="PecentageOfShareSubscribedColumn" msprop:Generator_UserColumnName="PecentageOfShareSubscribed" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewVotCardForBoDsElectionWithoutName" msprop:Generator_UserTableName="ViewVotCardForBoDsElectionWithoutName" msprop:Generator_RowEvArgName="ViewVotCardForBoDsElectionWithoutNameRowChangeEvent" msprop:Generator_TableVarName="tableViewVotCardForBoDsElectionWithoutName" msprop:Generator_TablePropName="ViewVotCardForBoDsElectionWithoutName" msprop:Generator_RowDeletingName="ViewVotCardForBoDsElectionWithoutNameRowDeleting" msprop:Generator_RowChangingName="ViewVotCardForBoDsElectionWithoutNameRowChanging" msprop:Generator_RowDeletedName="ViewVotCardForBoDsElectionWithoutNameRowDeleted" msprop:Generator_RowEvHandlerName="ViewVotCardForBoDsElectionWithoutNameRowChangeEventHandler" msprop:Generator_TableClassName="ViewVotCardForBoDsElectionWithoutNameDataTable" msprop:Generator_RowChangedName="ViewVotCardForBoDsElectionWithoutNameRowChanged" msprop:Generator_RowClassName="ViewVotCardForBoDsElectionWithoutNameRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="SubscribedShareNoModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" />
+              <xs:element name="NomineeId" msprop:Generator_ColumnVarNameInTable="columnNomineeId" msprop:Generator_ColumnPropNameInRow="NomineeId" msprop:Generator_ColumnPropNameInTable="NomineeIdColumn" msprop:Generator_UserColumnName="NomineeId" type="xs:int" />
+              <xs:element name="PecentageOfShareSubscribed" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInRow="PecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInTable="PecentageOfShareSubscribedColumn" msprop:Generator_UserColumnName="PecentageOfShareSubscribed" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewVotCardForBoDsElectionWithoutNameForInfluencials" msprop:Generator_UserTableName="ViewVotCardForBoDsElectionWithoutNameForInfluencials" msprop:Generator_RowEvArgName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRowChangeEvent" msprop:Generator_TableVarName="tableViewVotCardForBoDsElectionWithoutNameForInfluencials" msprop:Generator_TablePropName="ViewVotCardForBoDsElectionWithoutNameForInfluencials" msprop:Generator_RowDeletingName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRowDeleting" msprop:Generator_RowChangingName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRowChanging" msprop:Generator_RowDeletedName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRowDeleted" msprop:Generator_RowEvHandlerName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRowChangeEventHandler" msprop:Generator_TableClassName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsDataTable" msprop:Generator_RowChangedName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRowChanged" msprop:Generator_RowClassName="ViewVotCardForBoDsElectionWithoutNameForInfluencialsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="SubscribedShareNoModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" />
+              <xs:element name="NomineeId" msprop:Generator_ColumnVarNameInTable="columnNomineeId" msprop:Generator_ColumnPropNameInRow="NomineeId" msprop:Generator_ColumnPropNameInTable="NomineeIdColumn" msprop:Generator_UserColumnName="NomineeId" type="xs:int" />
+              <xs:element name="PecentageOfShareSubscribed" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInRow="PecentageOfShareSubscribed" msprop:Generator_ColumnPropNameInTable="PecentageOfShareSubscribedColumn" msprop:Generator_UserColumnName="PecentageOfShareSubscribed" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewShareholderDetail" msprop:Generator_UserTableName="ViewShareholderDetail" msprop:Generator_RowEvArgName="ViewShareholderDetailRowChangeEvent" msprop:Generator_TableVarName="tableViewShareholderDetail" msprop:Generator_TablePropName="ViewShareholderDetail" msprop:Generator_RowDeletingName="ViewShareholderDetailRowDeleting" msprop:Generator_RowChangingName="ViewShareholderDetailRowChanging" msprop:Generator_RowDeletedName="ViewShareholderDetailRowDeleted" msprop:Generator_RowEvHandlerName="ViewShareholderDetailRowChangeEventHandler" msprop:Generator_TableClassName="ViewShareholderDetailDataTable" msprop:Generator_RowChangedName="ViewShareholderDetailRowChanged" msprop:Generator_RowClassName="ViewShareholderDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sex" msprop:Generator_ColumnVarNameInTable="columnSex" msprop:Generator_ColumnPropNameInRow="Sex" msprop:Generator_ColumnPropNameInTable="SexColumn" msprop:Generator_UserColumnName="Sex">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOReg" msprop:Generator_ColumnVarNameInTable="columnDOReg" msprop:Generator_ColumnPropNameInRow="DOReg" msprop:Generator_ColumnPropNameInTable="DORegColumn" msprop:Generator_UserColumnName="DOReg" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DORegEth" msprop:Generator_ColumnVarNameInTable="columnDORegEth" msprop:Generator_ColumnPropNameInRow="DORegEth" msprop:Generator_ColumnPropNameInTable="DORegEthColumn" msprop:Generator_UserColumnName="DORegEth" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsLBFounder" msprop:Generator_ColumnVarNameInTable="columnIsLBFounder" msprop:Generator_ColumnPropNameInRow="IsLBFounder" msprop:Generator_ColumnPropNameInTable="IsLBFounderColumn" msprop:Generator_UserColumnName="IsLBFounder" type="xs:boolean" />
+              <xs:element name="IsGBFounder" msprop:Generator_ColumnVarNameInTable="columnIsGBFounder" msprop:Generator_ColumnPropNameInRow="IsGBFounder" msprop:Generator_ColumnPropNameInTable="IsGBFounderColumn" msprop:Generator_UserColumnName="IsGBFounder" type="xs:boolean" />
+              <xs:element name="SHStatus" msprop:Generator_ColumnVarNameInTable="columnSHStatus" msprop:Generator_ColumnPropNameInRow="SHStatus" msprop:Generator_ColumnPropNameInTable="SHStatusColumn" msprop:Generator_UserColumnName="SHStatus" type="xs:boolean" />
+              <xs:element name="Nationality" msprop:Generator_ColumnVarNameInTable="columnNationality" msprop:Generator_ColumnPropNameInRow="Nationality" msprop:Generator_ColumnPropNameInTable="NationalityColumn" msprop:Generator_UserColumnName="Nationality">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnPropNameInTable="RegionColumn" msprop:Generator_UserColumnName="Region" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" msprop:Generator_UserColumnName="City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubCity" msprop:Generator_ColumnVarNameInTable="columnSubCity" msprop:Generator_ColumnPropNameInRow="SubCity" msprop:Generator_ColumnPropNameInTable="SubCityColumn" msprop:Generator_UserColumnName="SubCity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Woreda_Kebele" msprop:Generator_ColumnVarNameInTable="columnWoreda_Kebele" msprop:Generator_ColumnPropNameInRow="Woreda_Kebele" msprop:Generator_ColumnPropNameInTable="Woreda_KebeleColumn" msprop:Generator_UserColumnName="Woreda_Kebele" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HouseNo" msprop:Generator_ColumnVarNameInTable="columnHouseNo" msprop:Generator_ColumnPropNameInRow="HouseNo" msprop:Generator_ColumnPropNameInTable="HouseNoColumn" msprop:Generator_UserColumnName="HouseNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OfficeTelNo" msprop:Generator_ColumnVarNameInTable="columnOfficeTelNo" msprop:Generator_ColumnPropNameInRow="OfficeTelNo" msprop:Generator_ColumnPropNameInTable="OfficeTelNoColumn" msprop:Generator_UserColumnName="OfficeTelNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ResTelNo" msprop:Generator_ColumnVarNameInTable="columnResTelNo" msprop:Generator_ColumnPropNameInRow="ResTelNo" msprop:Generator_ColumnPropNameInTable="ResTelNoColumn" msprop:Generator_UserColumnName="ResTelNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobileNo1" msprop:Generator_ColumnVarNameInTable="columnMobileNo1" msprop:Generator_ColumnPropNameInRow="MobileNo1" msprop:Generator_ColumnPropNameInTable="MobileNo1Column" msprop:Generator_UserColumnName="MobileNo1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobileNo2" msprop:Generator_ColumnVarNameInTable="columnMobileNo2" msprop:Generator_ColumnPropNameInRow="MobileNo2" msprop:Generator_ColumnPropNameInTable="MobileNo2Column" msprop:Generator_UserColumnName="MobileNo2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POBox" msprop:Generator_ColumnVarNameInTable="columnPOBox" msprop:Generator_ColumnPropNameInRow="POBox" msprop:Generator_ColumnPropNameInTable="POBoxColumn" msprop:Generator_UserColumnName="POBox" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email1" msprop:Generator_ColumnVarNameInTable="columnEmail1" msprop:Generator_ColumnPropNameInRow="Email1" msprop:Generator_ColumnPropNameInTable="Email1Column" msprop:Generator_UserColumnName="Email1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email2" msprop:Generator_ColumnVarNameInTable="columnEmail2" msprop:Generator_ColumnPropNameInRow="Email2" msprop:Generator_ColumnPropNameInTable="Email2Column" msprop:Generator_UserColumnName="Email2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fax" msprop:Generator_ColumnVarNameInTable="columnFax" msprop:Generator_ColumnPropNameInRow="Fax" msprop:Generator_ColumnPropNameInTable="FaxColumn" msprop:Generator_UserColumnName="Fax" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubscribedShareNoOrg" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoOrg" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoOrg" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoOrgColumn" msprop:Generator_UserColumnName="SubscribedShareNoOrg" type="xs:decimal" />
+              <xs:element name="SubscribedShareAmtOrg" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareAmtOrg" msprop:Generator_ColumnPropNameInRow="SubscribedShareAmtOrg" msprop:Generator_ColumnPropNameInTable="SubscribedShareAmtOrgColumn" msprop:Generator_UserColumnName="SubscribedShareAmtOrg" type="xs:decimal" />
+              <xs:element name="SubscribedShareNoModif" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SubscribedShareAmtModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareAmtModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareAmtModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareAmtModifColumn" msprop:Generator_UserColumnName="SubscribedShareAmtModif" type="xs:decimal" />
+              <xs:element name="PaidUpNoofShare" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPaidUpNoofShare" msprop:Generator_ColumnPropNameInRow="PaidUpNoofShare" msprop:Generator_ColumnPropNameInTable="PaidUpNoofShareColumn" msprop:Generator_UserColumnName="PaidUpNoofShare" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidUpShareAmt" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPaidUpShareAmt" msprop:Generator_ColumnPropNameInRow="PaidUpShareAmt" msprop:Generator_ColumnPropNameInTable="PaidUpShareAmtColumn" msprop:Generator_UserColumnName="PaidUpShareAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UnpaidShareNo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUnpaidShareNo" msprop:Generator_ColumnPropNameInRow="UnpaidShareNo" msprop:Generator_ColumnPropNameInTable="UnpaidShareNoColumn" msprop:Generator_UserColumnName="UnpaidShareNo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" msprop:Generator_UserColumnName="IsActive" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewTotalVotPerBoDsNomineofaSession" msprop:Generator_UserTableName="ViewTotalVotPerBoDsNomineofaSession" msprop:Generator_RowEvArgName="ViewTotalVotPerBoDsNomineofaSessionRowChangeEvent" msprop:Generator_TableVarName="tableViewTotalVotPerBoDsNomineofaSession" msprop:Generator_TablePropName="ViewTotalVotPerBoDsNomineofaSession" msprop:Generator_RowDeletingName="ViewTotalVotPerBoDsNomineofaSessionRowDeleting" msprop:Generator_RowChangingName="ViewTotalVotPerBoDsNomineofaSessionRowChanging" msprop:Generator_RowDeletedName="ViewTotalVotPerBoDsNomineofaSessionRowDeleted" msprop:Generator_RowEvHandlerName="ViewTotalVotPerBoDsNomineofaSessionRowChangeEventHandler" msprop:Generator_TableClassName="ViewTotalVotPerBoDsNomineofaSessionDataTable" msprop:Generator_RowChangedName="ViewTotalVotPerBoDsNomineofaSessionRowChanged" msprop:Generator_RowClassName="ViewTotalVotPerBoDsNomineofaSessionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="NomineeRegCode" msprop:Generator_ColumnVarNameInTable="columnNomineeRegCode" msprop:Generator_ColumnPropNameInRow="NomineeRegCode" msprop:Generator_ColumnPropNameInTable="NomineeRegCodeColumn" msprop:Generator_UserColumnName="NomineeRegCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeSHId" msprop:Generator_ColumnVarNameInTable="columnNomineeSHId" msprop:Generator_ColumnPropNameInRow="NomineeSHId" msprop:Generator_ColumnPropNameInTable="NomineeSHIdColumn" msprop:Generator_UserColumnName="NomineeSHId" type="xs:int" />
+              <xs:element name="NomineeFullName" msprop:Generator_ColumnVarNameInTable="columnNomineeFullName" msprop:Generator_ColumnPropNameInRow="NomineeFullName" msprop:Generator_ColumnPropNameInTable="NomineeFullNameColumn" msprop:Generator_UserColumnName="NomineeFullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomineeFullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnNomineeFullNameAmharic" msprop:Generator_ColumnPropNameInRow="NomineeFullNameAmharic" msprop:Generator_ColumnPropNameInTable="NomineeFullNameAmharicColumn" msprop:Generator_UserColumnName="NomineeFullNameAmharic">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsFormerBoDs" msprop:Generator_ColumnVarNameInTable="columnIsFormerBoDs" msprop:Generator_ColumnPropNameInRow="IsFormerBoDs" msprop:Generator_ColumnPropNameInTable="IsFormerBoDsColumn" msprop:Generator_UserColumnName="IsFormerBoDs" type="xs:boolean" />
+              <xs:element name="TotalVotByNonInfluencial" msprop:Generator_ColumnVarNameInTable="columnTotalVotByNonInfluencial" msprop:Generator_ColumnPropNameInRow="TotalVotByNonInfluencial" msprop:Generator_ColumnPropNameInTable="TotalVotByNonInfluencialColumn" msprop:Generator_UserColumnName="TotalVotByNonInfluencial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalVotByInfluencial" msprop:Generator_ColumnVarNameInTable="columnTotalVotByInfluencial" msprop:Generator_ColumnPropNameInRow="TotalVotByInfluencial" msprop:Generator_ColumnPropNameInTable="TotalVotByInfluencialColumn" msprop:Generator_UserColumnName="TotalVotByInfluencial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NoOfNonInfluShareholderVoted" msprop:Generator_ColumnVarNameInTable="columnNoOfNonInfluShareholderVoted" msprop:Generator_ColumnPropNameInRow="NoOfNonInfluShareholderVoted" msprop:Generator_ColumnPropNameInTable="NoOfNonInfluShareholderVotedColumn" msprop:Generator_UserColumnName="NoOfNonInfluShareholderVoted" type="xs:int" minOccurs="0" />
+              <xs:element name="NoOfInfluShareholderVoted" msprop:Generator_ColumnVarNameInTable="columnNoOfInfluShareholderVoted" msprop:Generator_ColumnPropNameInRow="NoOfInfluShareholderVoted" msprop:Generator_ColumnPropNameInTable="NoOfInfluShareholderVotedColumn" msprop:Generator_UserColumnName="NoOfInfluShareholderVoted" type="xs:int" minOccurs="0" />
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="NominiTypeForRecOrdering" msprop:Generator_ColumnVarNameInTable="columnNominiTypeForRecOrdering" msprop:Generator_ColumnPropNameInRow="NominiTypeForRecOrdering" msprop:Generator_ColumnPropNameInTable="NominiTypeForRecOrderingColumn" msprop:Generator_UserColumnName="NominiTypeForRecOrdering" type="xs:unsignedByte" />
+              <xs:element name="IsNombyNonInfluence" msprop:Generator_ColumnVarNameInTable="columnIsNombyNonInfluence" msprop:Generator_ColumnPropNameInRow="IsNombyNonInfluence" msprop:Generator_ColumnPropNameInTable="IsNombyNonInfluenceColumn" msprop:Generator_UserColumnName="IsNombyNonInfluence" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PS_DividendMaster" msprop:Generator_TableClassName="PS_DividendMasterDataTable" msprop:Generator_RowEvArgName="PS_DividendMasterRowChangeEvent" msprop:Generator_TableVarName="tablePS_DividendMaster" msprop:Generator_TablePropName="PS_DividendMaster" msprop:Generator_RowDeletingName="PS_DividendMasterRowDeleting" msprop:Generator_RowChangingName="PS_DividendMasterRowChanging" msprop:Generator_RowEvHandlerName="PS_DividendMasterRowChangeEventHandler" msprop:Generator_RowDeletedName="PS_DividendMasterRowDeleted" msprop:Generator_RowChangedName="PS_DividendMasterRowChanged" msprop:Generator_UserTableName="PS_DividendMaster" msprop:Generator_RowClassName="PS_DividendMasterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sex" msprop:Generator_ColumnVarNameInTable="columnSex" msprop:Generator_ColumnPropNameInRow="Sex" msprop:Generator_ColumnPropNameInTable="SexColumn" msprop:Generator_UserColumnName="Sex">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOReg" msprop:Generator_ColumnVarNameInTable="columnDOReg" msprop:Generator_ColumnPropNameInRow="DOReg" msprop:Generator_ColumnPropNameInTable="DORegColumn" msprop:Generator_UserColumnName="DOReg" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DORegEth" msprop:Generator_ColumnVarNameInTable="columnDORegEth" msprop:Generator_ColumnPropNameInRow="DORegEth" msprop:Generator_ColumnPropNameInTable="DORegEthColumn" msprop:Generator_UserColumnName="DORegEth" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsLBFounder" msprop:Generator_ColumnVarNameInTable="columnIsLBFounder" msprop:Generator_ColumnPropNameInRow="IsLBFounder" msprop:Generator_ColumnPropNameInTable="IsLBFounderColumn" msprop:Generator_UserColumnName="IsLBFounder" type="xs:boolean" />
+              <xs:element name="IsGBFounder" msprop:Generator_ColumnVarNameInTable="columnIsGBFounder" msprop:Generator_ColumnPropNameInRow="IsGBFounder" msprop:Generator_ColumnPropNameInTable="IsGBFounderColumn" msprop:Generator_UserColumnName="IsGBFounder" type="xs:boolean" />
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobileNo1" msprop:Generator_ColumnVarNameInTable="columnMobileNo1" msprop:Generator_ColumnPropNameInRow="MobileNo1" msprop:Generator_ColumnPropNameInTable="MobileNo1Column" msprop:Generator_UserColumnName="MobileNo1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobileNo2" msprop:Generator_ColumnVarNameInTable="columnMobileNo2" msprop:Generator_ColumnPropNameInRow="MobileNo2" msprop:Generator_ColumnPropNameInTable="MobileNo2Column" msprop:Generator_UserColumnName="MobileNo2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubscribedShareNoOrg" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoOrg" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoOrg" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoOrgColumn" msprop:Generator_UserColumnName="SubscribedShareNoOrg" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SubscribedShareAmtOrg" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareAmtOrg" msprop:Generator_ColumnPropNameInRow="SubscribedShareAmtOrg" msprop:Generator_ColumnPropNameInTable="SubscribedShareAmtOrgColumn" msprop:Generator_UserColumnName="SubscribedShareAmtOrg" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SubscribedShareNoModif" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SubscribedShareAmtModif" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareAmtModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareAmtModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareAmtModifColumn" msprop:Generator_UserColumnName="SubscribedShareAmtModif" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidupNoofShare" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPaidupNoofShare" msprop:Generator_ColumnPropNameInRow="PaidupNoofShare" msprop:Generator_ColumnPropNameInTable="PaidupNoofShareColumn" msprop:Generator_UserColumnName="PaidupNoofShare" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidupNoofShareDecimal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPaidupNoofShareDecimal" msprop:Generator_ColumnPropNameInRow="PaidupNoofShareDecimal" msprop:Generator_ColumnPropNameInTable="PaidupNoofShareDecimalColumn" msprop:Generator_UserColumnName="PaidupNoofShareDecimal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidupShareAmt" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPaidupShareAmt" msprop:Generator_ColumnPropNameInRow="PaidupShareAmt" msprop:Generator_ColumnPropNameInTable="PaidupShareAmtColumn" msprop:Generator_UserColumnName="PaidupShareAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidupShareAmtDecimal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPaidupShareAmtDecimal" msprop:Generator_ColumnPropNameInRow="PaidupShareAmtDecimal" msprop:Generator_ColumnPropNameInTable="PaidupShareAmtDecimalColumn" msprop:Generator_UserColumnName="PaidupShareAmtDecimal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LFRRDiv" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLFRRDiv" msprop:Generator_ColumnPropNameInRow="LFRRDiv" msprop:Generator_ColumnPropNameInTable="LFRRDivColumn" msprop:Generator_UserColumnName="LFRRDiv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GFRRDiv" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGFRRDiv" msprop:Generator_ColumnPropNameInRow="GFRRDiv" msprop:Generator_ColumnPropNameInTable="GFRRDivColumn" msprop:Generator_UserColumnName="GFRRDiv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CommonDiv" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCommonDiv" msprop:Generator_ColumnPropNameInRow="CommonDiv" msprop:Generator_ColumnPropNameInTable="CommonDivColumn" msprop:Generator_UserColumnName="CommonDiv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RemainingDiv" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRemainingDiv" msprop:Generator_ColumnPropNameInRow="RemainingDiv" msprop:Generator_ColumnPropNameInTable="RemainingDivColumn" msprop:Generator_UserColumnName="RemainingDiv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SumofComm_Remain" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumofComm_Remain" msprop:Generator_ColumnPropNameInRow="SumofComm_Remain" msprop:Generator_ColumnPropNameInTable="SumofComm_RemainColumn" msprop:Generator_UserColumnName="SumofComm_Remain" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GrossDividend" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGrossDividend" msprop:Generator_ColumnPropNameInRow="GrossDividend" msprop:Generator_ColumnPropNameInTable="GrossDividendColumn" msprop:Generator_UserColumnName="GrossDividend" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Tax" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTax" msprop:Generator_ColumnPropNameInRow="Tax" msprop:Generator_ColumnPropNameInTable="TaxColumn" msprop:Generator_UserColumnName="Tax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NetDividend" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNetDividend" msprop:Generator_ColumnPropNameInRow="NetDividend" msprop:Generator_ColumnPropNameInTable="NetDividendColumn" msprop:Generator_UserColumnName="NetDividend" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsPaid" msprop:Generator_ColumnVarNameInTable="columnIsPaid" msprop:Generator_ColumnPropNameInRow="IsPaid" msprop:Generator_ColumnPropNameInTable="IsPaidColumn" msprop:Generator_UserColumnName="IsPaid" type="xs:boolean" />
+              <xs:element name="IsPaidToOutstanding" msprop:Generator_ColumnVarNameInTable="columnIsPaidToOutstanding" msprop:Generator_ColumnPropNameInRow="IsPaidToOutstanding" msprop:Generator_ColumnPropNameInTable="IsPaidToOutstandingColumn" msprop:Generator_UserColumnName="IsPaidToOutstanding" type="xs:boolean" />
+              <xs:element name="IsCapitalized" msprop:Generator_ColumnVarNameInTable="columnIsCapitalized" msprop:Generator_ColumnPropNameInRow="IsCapitalized" msprop:Generator_ColumnPropNameInTable="IsCapitalizedColumn" msprop:Generator_UserColumnName="IsCapitalized" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_PaymentHistory" msprop:Generator_TableClassName="View_PaymentHistoryDataTable" msprop:Generator_TableVarName="tableView_PaymentHistory" msprop:Generator_TablePropName="View_PaymentHistory" msprop:Generator_RowDeletingName="View_PaymentHistoryRowDeleting" msprop:Generator_RowChangingName="View_PaymentHistoryRowChanging" msprop:Generator_RowEvHandlerName="View_PaymentHistoryRowChangeEventHandler" msprop:Generator_RowDeletedName="View_PaymentHistoryRowDeleted" msprop:Generator_UserTableName="View_PaymentHistory" msprop:Generator_RowChangedName="View_PaymentHistoryRowChanged" msprop:Generator_RowEvArgName="View_PaymentHistoryRowChangeEvent" msprop:Generator_RowClassName="View_PaymentHistoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PaymentId" msprop:Generator_ColumnVarNameInTable="columnPaymentId" msprop:Generator_ColumnPropNameInRow="PaymentId" msprop:Generator_ColumnPropNameInTable="PaymentIdColumn" msprop:Generator_UserColumnName="PaymentId" type="xs:int" />
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceiptNo" msprop:Generator_ColumnVarNameInTable="columnReceiptNo" msprop:Generator_ColumnPropNameInRow="ReceiptNo" msprop:Generator_ColumnPropNameInTable="ReceiptNoColumn" msprop:Generator_UserColumnName="ReceiptNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TypeofPayment" msprop:Generator_ColumnVarNameInTable="columnTypeofPayment" msprop:Generator_ColumnPropNameInRow="TypeofPayment" msprop:Generator_ColumnPropNameInTable="TypeofPaymentColumn" msprop:Generator_UserColumnName="TypeofPayment" type="xs:int" />
+              <xs:element name="EffectiveDate" msprop:Generator_ColumnVarNameInTable="columnEffectiveDate" msprop:Generator_ColumnPropNameInRow="EffectiveDate" msprop:Generator_ColumnPropNameInTable="EffectiveDateColumn" msprop:Generator_UserColumnName="EffectiveDate" type="xs:dateTime" />
+              <xs:element name="IsCanceled" msprop:Generator_ColumnVarNameInTable="columnIsCanceled" msprop:Generator_ColumnPropNameInRow="IsCanceled" msprop:Generator_ColumnPropNameInTable="IsCanceledColumn" msprop:Generator_UserColumnName="IsCanceled" type="xs:boolean" />
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="DateofPayment" msprop:Generator_ColumnVarNameInTable="columnDateofPayment" msprop:Generator_ColumnPropNameInRow="DateofPayment" msprop:Generator_ColumnPropNameInTable="DateofPaymentColumn" msprop:Generator_UserColumnName="DateofPayment" type="xs:dateTime" />
+              <xs:element name="DateofPaymentEth" msprop:Generator_ColumnVarNameInTable="columnDateofPaymentEth" msprop:Generator_ColumnPropNameInRow="DateofPaymentEth" msprop:Generator_ColumnPropNameInTable="DateofPaymentEthColumn" msprop:Generator_UserColumnName="DateofPaymentEth" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EffectiveDateEth" msprop:Generator_ColumnVarNameInTable="columnEffectiveDateEth" msprop:Generator_ColumnPropNameInRow="EffectiveDateEth" msprop:Generator_ColumnPropNameInTable="EffectiveDateEthColumn" msprop:Generator_UserColumnName="EffectiveDateEth" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoofSharePaid" msprop:Generator_ColumnVarNameInTable="columnNoofSharePaid" msprop:Generator_ColumnPropNameInRow="NoofSharePaid" msprop:Generator_ColumnPropNameInTable="NoofSharePaidColumn" msprop:Generator_UserColumnName="NoofSharePaid" type="xs:decimal" />
+              <xs:element name="AmntofSharePaid" msprop:Generator_ColumnVarNameInTable="columnAmntofSharePaid" msprop:Generator_ColumnPropNameInRow="AmntofSharePaid" msprop:Generator_ColumnPropNameInTable="AmntofSharePaidColumn" msprop:Generator_UserColumnName="AmntofSharePaid" type="xs:decimal" />
+              <xs:element name="CrtBy" msprop:Generator_ColumnVarNameInTable="columnCrtBy" msprop:Generator_ColumnPropNameInRow="CrtBy" msprop:Generator_ColumnPropNameInTable="CrtByColumn" msprop:Generator_UserColumnName="CrtBy">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CrtDt" msprop:Generator_ColumnVarNameInTable="columnCrtDt" msprop:Generator_ColumnPropNameInRow="CrtDt" msprop:Generator_ColumnPropNameInTable="CrtDtColumn" msprop:Generator_UserColumnName="CrtDt" type="xs:dateTime" />
+              <xs:element name="CrtWs" msprop:Generator_ColumnVarNameInTable="columnCrtWs" msprop:Generator_ColumnPropNameInRow="CrtWs" msprop:Generator_ColumnPropNameInTable="CrtWsColumn" msprop:Generator_UserColumnName="CrtWs">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LmBy" msprop:Generator_ColumnVarNameInTable="columnLmBy" msprop:Generator_ColumnPropNameInRow="LmBy" msprop:Generator_ColumnPropNameInTable="LmByColumn" msprop:Generator_UserColumnName="LmBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LmDt" msprop:Generator_ColumnVarNameInTable="columnLmDt" msprop:Generator_ColumnPropNameInRow="LmDt" msprop:Generator_ColumnPropNameInTable="LmDtColumn" msprop:Generator_UserColumnName="LmDt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LmWs" msprop:Generator_ColumnVarNameInTable="columnLmWs" msprop:Generator_ColumnPropNameInRow="LmWs" msprop:Generator_ColumnPropNameInTable="LmWsColumn" msprop:Generator_UserColumnName="LmWs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaymentTypeDesc" msprop:Generator_ColumnVarNameInTable="columnPaymentTypeDesc" msprop:Generator_ColumnPropNameInRow="PaymentTypeDesc" msprop:Generator_ColumnPropNameInTable="PaymentTypeDescColumn" msprop:Generator_UserColumnName="PaymentTypeDesc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sex" msprop:Generator_ColumnVarNameInTable="columnSex" msprop:Generator_ColumnPropNameInRow="Sex" msprop:Generator_ColumnPropNameInTable="SexColumn" msprop:Generator_UserColumnName="Sex">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOReg" msprop:Generator_ColumnVarNameInTable="columnDOReg" msprop:Generator_ColumnPropNameInRow="DOReg" msprop:Generator_ColumnPropNameInTable="DORegColumn" msprop:Generator_UserColumnName="DOReg" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DORegEth" msprop:Generator_ColumnVarNameInTable="columnDORegEth" msprop:Generator_ColumnPropNameInRow="DORegEth" msprop:Generator_ColumnPropNameInTable="DORegEthColumn" msprop:Generator_UserColumnName="DORegEth" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SHStatus" msprop:Generator_ColumnVarNameInTable="columnSHStatus" msprop:Generator_ColumnPropNameInRow="SHStatus" msprop:Generator_ColumnPropNameInTable="SHStatusColumn" msprop:Generator_UserColumnName="SHStatus" type="xs:boolean" />
+              <xs:element name="SubscribedShareNoOrg" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoOrg" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoOrg" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoOrgColumn" msprop:Generator_UserColumnName="SubscribedShareNoOrg" type="xs:decimal" />
+              <xs:element name="SubscribedShareAmtOrg" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareAmtOrg" msprop:Generator_ColumnPropNameInRow="SubscribedShareAmtOrg" msprop:Generator_ColumnPropNameInTable="SubscribedShareAmtOrgColumn" msprop:Generator_UserColumnName="SubscribedShareAmtOrg" type="xs:decimal" />
+              <xs:element name="PaidUpNoofShare" msprop:Generator_ColumnVarNameInTable="columnPaidUpNoofShare" msprop:Generator_ColumnPropNameInRow="PaidUpNoofShare" msprop:Generator_ColumnPropNameInTable="PaidUpNoofShareColumn" msprop:Generator_UserColumnName="PaidUpNoofShare" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidUpShareAmt" msprop:Generator_ColumnVarNameInTable="columnPaidUpShareAmt" msprop:Generator_ColumnPropNameInRow="PaidUpShareAmt" msprop:Generator_ColumnPropNameInTable="PaidUpShareAmtColumn" msprop:Generator_UserColumnName="PaidUpShareAmt" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViewForVotingCard" msprop:Generator_TableClassName="ViewForVotingCardDataTable" msprop:Generator_TableVarName="tableViewForVotingCard" msprop:Generator_TablePropName="ViewForVotingCard" msprop:Generator_RowDeletingName="ViewForVotingCardRowDeleting" msprop:Generator_RowChangingName="ViewForVotingCardRowChanging" msprop:Generator_RowEvHandlerName="ViewForVotingCardRowChangeEventHandler" msprop:Generator_RowDeletedName="ViewForVotingCardRowDeleted" msprop:Generator_UserTableName="ViewForVotingCard" msprop:Generator_RowChangedName="ViewForVotingCardRowChanged" msprop:Generator_RowEvArgName="ViewForVotingCardRowChangeEvent" msprop:Generator_RowClassName="ViewForVotingCardRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHId" msprop:Generator_ColumnVarNameInTable="columnSHId" msprop:Generator_ColumnPropNameInRow="SHId" msprop:Generator_ColumnPropNameInTable="SHIdColumn" msprop:Generator_UserColumnName="SHId" type="xs:int" />
+              <xs:element name="RegCode" msprop:Generator_ColumnVarNameInTable="columnRegCode" msprop:Generator_ColumnPropNameInRow="RegCode" msprop:Generator_ColumnPropNameInTable="RegCodeColumn" msprop:Generator_UserColumnName="RegCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullNameAmharic" msprop:Generator_ColumnVarNameInTable="columnFullNameAmharic" msprop:Generator_ColumnPropNameInRow="FullNameAmharic" msprop:Generator_ColumnPropNameInTable="FullNameAmharicColumn" msprop:Generator_UserColumnName="FullNameAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FiscalYear" msprop:Generator_ColumnVarNameInTable="columnFiscalYear" msprop:Generator_ColumnPropNameInRow="FiscalYear" msprop:Generator_ColumnPropNameInTable="FiscalYearColumn" msprop:Generator_UserColumnName="FiscalYear">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoundNo" msprop:Generator_ColumnVarNameInTable="columnRoundNo" msprop:Generator_ColumnPropNameInRow="RoundNo" msprop:Generator_ColumnPropNameInTable="RoundNoColumn" msprop:Generator_UserColumnName="RoundNo" type="xs:int" />
+              <xs:element name="MeetingDate" msprop:Generator_ColumnVarNameInTable="columnMeetingDate" msprop:Generator_ColumnPropNameInRow="MeetingDate" msprop:Generator_ColumnPropNameInTable="MeetingDateColumn" msprop:Generator_UserColumnName="MeetingDate" type="xs:dateTime" />
+              <xs:element name="MeetingDateEth" msprop:Generator_ColumnVarNameInTable="columnMeetingDateEth" msprop:Generator_ColumnPropNameInRow="MeetingDateEth" msprop:Generator_ColumnPropNameInTable="MeetingDateEthColumn" msprop:Generator_UserColumnName="MeetingDateEth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Venue" msprop:Generator_ColumnVarNameInTable="columnVenue" msprop:Generator_ColumnPropNameInRow="Venue" msprop:Generator_ColumnPropNameInTable="VenueColumn" msprop:Generator_UserColumnName="Venue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="venuAmharic" msprop:Generator_ColumnVarNameInTable="columnvenuAmharic" msprop:Generator_ColumnPropNameInRow="venuAmharic" msprop:Generator_ColumnPropNameInTable="venuAmharicColumn" msprop:Generator_UserColumnName="venuAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionAmharic" msprop:Generator_ColumnVarNameInTable="columnDescriptionAmharic" msprop:Generator_ColumnPropNameInRow="DescriptionAmharic" msprop:Generator_ColumnPropNameInTable="DescriptionAmharicColumn" msprop:Generator_UserColumnName="DescriptionAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgendaId" msprop:Generator_ColumnVarNameInTable="columnAgendaId" msprop:Generator_ColumnPropNameInRow="AgendaId" msprop:Generator_ColumnPropNameInTable="AgendaIdColumn" msprop:Generator_UserColumnName="AgendaId" type="xs:int" />
+              <xs:element name="Agenda" msprop:Generator_ColumnVarNameInTable="columnAgenda" msprop:Generator_ColumnPropNameInRow="Agenda" msprop:Generator_ColumnPropNameInTable="AgendaColumn" msprop:Generator_UserColumnName="Agenda">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AgendaAmharic" msprop:Generator_ColumnVarNameInTable="columnAgendaAmharic" msprop:Generator_ColumnPropNameInRow="AgendaAmharic" msprop:Generator_ColumnPropNameInTable="AgendaAmharicColumn" msprop:Generator_UserColumnName="AgendaAmharic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SessionId" msprop:Generator_ColumnVarNameInTable="columnSessionId" msprop:Generator_ColumnPropNameInRow="SessionId" msprop:Generator_ColumnPropNameInTable="SessionIdColumn" msprop:Generator_UserColumnName="SessionId" type="xs:int" />
+              <xs:element name="SubscribedShareNoModif" msprop:Generator_ColumnVarNameInTable="columnSubscribedShareNoModif" msprop:Generator_ColumnPropNameInRow="SubscribedShareNoModif" msprop:Generator_ColumnPropNameInTable="SubscribedShareNoModifColumn" msprop:Generator_UserColumnName="SubscribedShareNoModif" type="xs:decimal" />
+              <xs:element name="PaidUpNoofShare" msprop:Generator_ColumnVarNameInTable="columnPaidUpNoofShare" msprop:Generator_ColumnPropNameInRow="PaidUpNoofShare" msprop:Generator_ColumnPropNameInTable="PaidUpNoofShareColumn" msprop:Generator_UserColumnName="PaidUpNoofShare" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PS_DividendMaster" />
+      <xs:field xpath="mstns:FiscalYear" />
+      <xs:field xpath="mstns:SHId" />
+    </xs:unique>
+    <xs:unique name="View_PaymentHistory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:View_PaymentHistory" />
+      <xs:field xpath="mstns:PaymentId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
